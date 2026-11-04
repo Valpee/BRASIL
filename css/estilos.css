@@ -1,0 +1,217 @@
+   body {
+       background-color: #B3AFAF;
+       font-family: Sylfaen, Geneva, Tahoma, sans-serif;
+       font-size: 1.2em;
+       text-align: justify margin
+   }
+
+   h1 {
+       background-color: #454D36;
+       font-family: Stencil, 'Times New Roman', Times, serif;
+       text-shadow: 2px -2px 1px #F2CE0C;
+       text-align: center;
+
+   }
+
+   p {
+       font-style: oblique;
+       font-family: Stencil, 'Times New Roman', Times, serif;
+
+   }
+
+   hr {
+       border: 5px #701F0F double;
+   }
+
+   span {
+       color: aqua;
+
+   }
+
+   .himno {
+       text-transform: capitalize;
+       text-align: center;
+   }
+
+   .imagen-bandera {
+       width: 50%;
+       min-width: 500px;
+
+
+   }
+
+   .centrado {
+       text-align: center;
+   }
+
+   #densidad table,
+   td {
+       border-width: 1px;
+       border-color: blue;
+       border-style: solid;
+       border-collapse: collapse;
+       margin: 20px;
+
+   }
+
+   #densidad td {
+       padding: 20px;
+
+       background-color: turquoise;
+   }
+
+   td:nth-child(3) {
+       background-color: violet;
+   }
+
+
+
+   #densidad table {
+       width: 50%;
+       text-align: center;
+   }
+
+   .caja {
+       width: 100%;
+       min-width: 300px;
+       max-width: 400px;
+       height: 150px;
+       background-color: #9439A8;
+       overflow: scroll;
+       padding: 30px 10px;
+
+   }
+
+   .caja2 {
+       width: 100px;
+       height: 100px;
+       background-color: #A8394F;
+       margin: auto;
+       padding: 20px;
+       border-radius: 20px 0px 30px 10px;
+
+
+   }
+
+   .rombo {
+
+       width: 180px;
+       height: 180px;
+       background-color: yellow;
+       transform: rotate(45deg);
+       margin: auto;
+   }
+
+
+   .contenedor {
+       background-color: #6039A8;
+       margin: 20px;
+       padding: 20px;
+
+
+   }
+
+   .contenedor-bandera {
+       background-color: green;
+       margin: 20px;
+       padding: 20px;
+
+
+   }
+
+   .densidad {
+       text-align: right;
+   }
+
+   footer {
+       height: 200px;
+       color: white;
+       /*
+       text-align: center;
+       */
+       padding: 5px 10px 550px;
+       background-color: #2BA31F;
+
+       td {
+           padding: 20px;
+           background-color: #2BA31F;
+           border: none;
+       }
+
+       tr {
+           border: none;
+       }
+
+       table {
+           padding: 100px;
+           width: 100%;
+           text-align: center;
+           border: none;
+       }
+
+       ul {
+           width: 600px;
+       }
+   }
+
+   .icono {
+       width: 50px;
+       vertical-align: text-bottom;
+   }
+
+   .listaPiepagina {
+       list-style-type: none;
+
+       a {
+           text-decoration: none;
+       }
+
+       li {
+           padding: 20px;
+       }
+   }
+
+   .li-icon {
+       padding: 10px;
+   }
+
+   .ul-footer {
+       text-align: center;
+   }
+
+   .logo {
+       width: 350px;
+       padding: 50px 100px;
+   }
+
+   nav ul {
+       list-style-type: none;
+       
+       display: flex;
+       padding: 0px;
+       margin: 0px;
+
+       text-align: center;
+
+       li {
+           margin: 10px;
+           padding: 20px;
+           background-color: #4D0E22;
+           text-transform: uppercase;
+           display: block;
+           text-align: center;
+       }
+
+       a {
+           color: white;
+           text-decoration: none;
+       }
+   }
+
+   nav li :hover {
+       background-color: #040212;
+
+       a {
+           color: #4D0E48
+       }
+   }
